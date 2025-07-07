@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+body,
+html {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-position: center;
+  background-image: url("./assets/foto/sky-background.avif");
+  background-repeat: no-repeat;
+}
+.body-header {
+  width: 600px;
+  margin: 30px;
+}

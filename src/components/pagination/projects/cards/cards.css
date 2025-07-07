@@ -1,0 +1,19 @@
+.project-card {
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.project-card:hover {
+  box-shadow: 0 0 5px #ffffff, 0 0 10px #00ffff, 0 0 15px #00ffff;
+}
+.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.project-card img {
+  display: flex;
+  justify-content: center;
+  border-radius: 16px;
+}

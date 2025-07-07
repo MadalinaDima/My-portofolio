@@ -1,0 +1,26 @@
+.buttons-div {
+  padding: 20%;
+  justify-content: center;
+  display: flex;
+  gap: 50px;
+}
+.section1-div {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+}
+.text-glow-section1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.text-glow-section1:hover {
+  box-shadow: 0 0 5px #ffffff, 0 0 10px #00ffff, 0 0 15px #00ffff;
+}
+.btn {
+  border-radius: 30px;
+  width: 150px;
+  height: 60px;
+}

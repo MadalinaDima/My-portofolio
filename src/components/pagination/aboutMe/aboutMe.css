@@ -1,0 +1,36 @@
+.about-me-container {
+  margin-top: 30px;
+  display: flex;
+  padding: 20px;
+  gap: 30px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(254, 254, 254, 0.775);
+}
+.social-media-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  padding: 20px;
+  background-color: rgba(254, 254, 254, 0.775);
+}
+.social-media-links {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+.social-media-links a {
+  font-size: 30px;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+a {
+  transition: text-shadow 0.3s ease;
+}
+a:hover {
+  text-shadow: 0 0 5px #ffffff, 0 0 10px #036464, 0 0 15px #00ffff;
+}
+.social-media-container .social-media-links {
+  flex-wrap: wrap;
+}
