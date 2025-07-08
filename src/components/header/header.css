@@ -6,8 +6,7 @@
   display: flex;
   justify-content: center;
   color: rgb(235, 242, 242);
-
-  margin: auto;
+  margin: 5% auto 5% auto;
 }
 .text-glow {
   color: rgb(198, 229, 234);
